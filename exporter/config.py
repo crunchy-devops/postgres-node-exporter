@@ -2,7 +2,7 @@ import configparser
 
 
 config = configparser.ConfigParser()
-config.read('../../../db_config.ini')
+config.read('db_config.ini')
 
 DATABASE = {
     'host':    config['postgresql']['host'],
